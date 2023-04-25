@@ -1,0 +1,20 @@
+.form__fieldset {
+    border: 3px solid gray;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.form__field:required {
+    background-color: #32ee8441;
+}
+
+.form__field:invalid {
+    background-color: #3666cd4a;
+}
+
+.form__legend {
+    background: #706b6b;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}

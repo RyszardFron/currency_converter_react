@@ -1,11 +1,9 @@
-import './App.css';
+import Fieldset from "./Fieldset";
 
 function App() {
   return (
-    <div className="App">
-   
-    </div>
-  );
+    <Fieldset />
+  )
 }
 
 export default App;
