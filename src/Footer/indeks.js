@@ -1,7 +1,7 @@
 import "./style.css";
 
-const Reference = () => (
-    <div className="reference">
+const Footer = () => (
+    <div className="Footer">
         <p>
             * Pola wymagane
         </p>
@@ -11,4 +11,4 @@ const Reference = () => (
     </div>
 );
 
-export default Reference;
+export default Footer;

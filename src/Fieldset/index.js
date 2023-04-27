@@ -4,7 +4,7 @@ import Currency from "../Currency";
 import Recalculate from "../Recalculate";
 import Result from "../Result";
 import ClearForm from "../ClearForm";
-import Reference from "../Reference/indeks";
+import Footer from "../Footer/indeks";
 
 const Fieldset = () => (
 
@@ -14,7 +14,7 @@ const Fieldset = () => (
         <Recalculate />
         <Result />
         <ClearForm />
-        <Reference />
+        <Footer />
     </fieldset>
 );
 
