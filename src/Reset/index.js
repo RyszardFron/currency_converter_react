@@ -1,11 +1,11 @@
 import "./style.css";
 
-const ClearForm = () => (
+const Reset = () => (
     <input
-        className="form__button"
+        className="form__buttonReset"
         type="reset"
         value="WYCZYŚĆ FORMULARZ"
     />
 );
 
-export default ClearForm;
+export default Reset;

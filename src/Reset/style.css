@@ -1,0 +1,17 @@
+.form__buttonReset {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #706b6b;
+    border-radius: 5px;
+    color: white;
+    font-style: bold;
+  }
+  
+  .form__buttonReset:hover {
+    background-color: #958c8c;
+  }
+  
+  .form__buttonReset:active {
+    background-color: #454242;
+  }
