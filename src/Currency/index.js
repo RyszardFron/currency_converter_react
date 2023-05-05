@@ -1,10 +1,10 @@
 import "./style.css";
 
-const Currency = () => (
+const Currency = ({title}) => (
     <p className="form">
         <label>
             <span className="form__labelText">
-                WYBIERZ symbol waluty*:
+               {title}
             </span>
             <select
                 className="form__field"

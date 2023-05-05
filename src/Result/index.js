@@ -1,7 +1,7 @@
 import "./style.css";
 
-const Result = () => (
-    <p className="form__result">OTRZYMASZ</p>
+const Result = ({title}) => (
+    <p className="form__result">{title}</p>
 );
 
 export default Result;

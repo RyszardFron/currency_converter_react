@@ -1,12 +1,12 @@
 import "./style.css";
 
-const Footer = () => (
+const Footer = ({note, source}) => (
     <div className="Footer">
         <p>
-            * Pola wymagane
+            {note}
         </p>
         <p>
-            Kursy średnie walut obcych NBP - tabela nr 225/A/NBP/2022 z dnia 2022-11-22
+           {source}
         </p>
     </div>
 );

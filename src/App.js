@@ -9,12 +9,18 @@ import Footer from "./Footer";
 function App() {
   return (
     <Fieldset >
-      <Currency />
-      <Recalculate />
-      <Button />
-      <Result />
-      <Reset />
-      <Footer />
+      <Currency title=" WYBIERZ symbol waluty*:" />
+      <Recalculate
+        title="MASZ - kwota do przeliczenia*:"
+        symbol="PLN"
+      />
+      <Button title="PRZELICZ" />
+      <Result title="OTRZYMASZ" />
+      <Reset title="WYCZYŚĆ FORMULARZ" />
+      <Footer
+        note="* Pola wymagane"
+        source=" Kursy średnie walut obcych NBP - tabela nr 225/A/NBP/2022 z dnia 2022-11-22"
+      />
     </Fieldset>
   )
 }

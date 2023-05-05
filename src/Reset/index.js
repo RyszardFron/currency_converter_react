@@ -1,10 +1,10 @@
 import "./style.css";
 
-const Reset = () => (
+const Reset = ({title}) => (
     <input
         className="form__buttonReset"
         type="reset"
-        value="WYCZYŚĆ FORMULARZ"
+        value={title}
     />
 );
 

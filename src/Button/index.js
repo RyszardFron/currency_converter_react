@@ -1,7 +1,7 @@
 import "./style.css"
 
-const Button = () => (
-    <button className="form__button">PRZELICZ</button>
+const Button = ({title}) => (
+    <button className="form__button">{title}</button>
 );
 
 export default Button;
