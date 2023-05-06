@@ -8,7 +8,7 @@ import Footer from "./Footer";
 
 function App() {
   return (
-    <Fieldset >
+    <Fieldset title="KALKULATOR WALUT">
       <Currency title=" WYBIERZ symbol waluty*:" />
       <Recalculate
         title="MASZ - kwota do przeliczenia*:"

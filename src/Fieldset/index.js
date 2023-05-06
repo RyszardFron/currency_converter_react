@@ -1,9 +1,9 @@
 import "./style.css";
 
-const Fieldset = ({ children }) => (
+const Fieldset = ({ children, title }) => (
 
     <fieldset className="form__fieldset">
-        <legend className="form__legend">KALKULATOR WALUT</legend>
+        <legend className="form__legend">{title}</legend>
         {children}
     </fieldset>
 );
