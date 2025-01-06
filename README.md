@@ -17,7 +17,7 @@ Project is created with:
 [currency_converter_react](https://ryszardfron.github.io/currency_converter_react/)
 
 ## Demonstration
-[currency_converter_react.gif](https://github.com/RyszardFron/currency_converter_react/blob/125796714d2383b53c2ffcd6ea242a431c2a80f3/images/currency_calculator.gif)
+![currency_converter_react.gif](https://github.com/RyszardFron/currency_converter_react/blob/125796714d2383b53c2ffcd6ea242a431c2a80f3/images/currency_calculator.gif)
 
 
 # Getting Started with Create React App
